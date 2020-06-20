@@ -1,0 +1,122 @@
+
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+footer {
+	width: 100%;
+	background-color: #00130909;
+	min-height: 50px;
+    font-size: 13px;
+    margin-bottom: auto;
+}
+
+.final{
+    color: black;
+    font-size: middle;
+}
+
+header {
+	background-color:#001309 ;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	min-height: 50px;
+}
+
+.head {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	height: 50px;
+	background-color: rgb(233, 211, 232);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+
+ul {
+	margin: 0;
+	width: 80%;
+	padding-left: 30%;
+}
+
+li {
+	list-style: none;
+}
+
+.logo {
+	margin: 0 10px 0 50px;
+	font-size: 30px;
+	font-weight: bold;
+    font-family: "arial rounded mt bold";
+    color: black;
+}
+
+.logo1 {
+	margin: 0 10px;
+	font-size: 30px;
+	font-weight: bold;
+    font-family: "arial rounded mt bold";
+    color: black;
+}
+
+.list-item {
+	width: 20%;
+	font-family: "arial rounded mt bold";
+}
+
+.list-item1 {
+    margin-left: 200px;
+	width: 20%;
+	font-family: "arial rounded mt bold";
+}
+
+.card-tag {
+	width: 700px;
+	height: 100%;
+	display: flex;
+	margin-left: 650px;
+	margin-top: 50px;
+}
+
+.tag {
+	width: 70px;
+	height: 70px;
+	background-color: #d19fc5;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+.title {
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #d15747;
+	margin-left: 20px;
+}
+
+.img{
+	margin-left: 450px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+img{
+	width: 60%;
+	object-fit:cover
+}

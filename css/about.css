@@ -1,0 +1,168 @@
+
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+footer {
+	width: 100%;
+	background-color: #00130909;
+	min-height: 50px;
+    font-size: 13px;
+    margin-bottom: auto;
+}
+
+.final{
+    color: black;
+	font-size: middle;
+}
+
+header {
+	background-color:#001309 ;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	min-height: 50px;
+}
+
+.head {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    height: 55px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+	background: transparent;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+  }
+
+ul {
+	margin: 0;
+	width: 80%;
+	padding-left: 30%;
+}
+
+li {
+	list-style: none;
+}
+
+.logo {
+	margin: 0 10px 0 50px;
+	font-size: 30px;
+	font-weight: bold;
+    font-family: "arial rounded mt bold";
+    color: black;
+}
+
+.logo1 {
+	margin: 0 10px;
+	font-size: 30px;
+	font-weight: bold;
+    font-family: "arial rounded mt bold";
+    color: black;
+}
+
+.list-item {
+	width: 20%;
+	font-family: "arial rounded mt bold";
+}
+
+.list-item1 {
+    margin-left: 200px;
+	width: 20%;
+	font-family: "arial rounded mt bold";
+}
+
+.main{
+	width:100%; 
+	height:100%; 
+	background-color:#a7c1c77a; 
+	border-top:4px solid #8db18b;
+	border-right:4px solid #8db18b;
+	border-bottom:4px solid #8db18b;
+}
+
+.table{
+	text-align: center;
+	margin-top: 10px;
+}
+
+#t-content{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	width: 95%;
+}
+
+.mytable{
+	border:solid #000;
+	border-width:1px 0px 0px 1px; 
+	background:#fff;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+
+.f-title{
+	border:solid #000;
+	border-width:0px 1px 1px 0px; 
+	padding:2px 10px;
+	text-align: center;
+	height:70px; 
+	background-color :#e6f5af;
+}
+
+.title{
+  color: rgb(75, 73, 73);
+  margin-left:auto;
+  margin-right:auto;
+  font-weight: 600px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+}
+
+.word{
+	border:solid #000;
+	border-width:0px 1px 1px 0px; 
+	padding:2px 10px;
+	text-align: center;
+	color: #000;
+	height:50px;
+	width: 29%;
+}
+
+.favor{
+	border:solid #000;
+	border-width:0px 1px 1px 0px; 
+	padding:2px 10px;
+	color: #000;
+	height:140px;
+	text-align: center;
+	width: 10%；
+}
+
+.none{
+	border:solid #000;
+	border-width:0px 1px 1px 0px; 
+	padding:2px 10px;
+	color: #000;
+	height:140px;
+	width: 90%；
+}
